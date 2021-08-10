@@ -76,6 +76,11 @@
 	padding: 0;
 }
 
+.popup__button-add:hover {
+	opacity: 0.8;
+	cursor: url(../../images/Pointer.png), auto;
+}
+
 .popup__wrapper {
   display: flex;
 	flex-direction: column;
@@ -100,8 +105,6 @@
 
 .popup__span {
 	color: #BEC5CC;
-	
-
 }
 
 .popup__button-wrapper {
@@ -129,6 +132,11 @@
   line-height: 24px;
 }
 
+.popup__button-choice:hover {
+	opacity: 0.8;
+	cursor: url(../../images/Pointer.png), auto;
+}
+
 .popup__button-choice_different_color {
   background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
 	color: #fff;
@@ -152,6 +160,13 @@
 	margin-bottom: 32px;
 }
 
+.popup__button-submit:hover {
+	opacity: 0.8;
+	cursor: url(../../images/Pointer.png), auto;
+	background:  #EA0029;
+	;
+}
+
 .popup__button-close {
 	background-image: url(../../images/close-icon.svg);
   background-size: cover;
@@ -164,6 +179,11 @@
   position: absolute;
 	top: 27px;
 	right: 27px;
+}
+
+.popup__button-close:hover {
+	opacity: 0.8;
+	cursor: url(../../images/Pointer.png), auto;
 }
 
 .popup_opened {
