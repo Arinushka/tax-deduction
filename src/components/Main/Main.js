@@ -9,7 +9,14 @@ export const Main = (props) => {
 			</div>}
 			{props.isOpen && <Popup 
 			isOpen={props.isOpen}
-			closePopup={props.closePopup}/>}
+			closePopup={props.closePopup}
+			isClick={props.isClick}
+			checkBoxOpen={props.checkBoxOpen}
+			taxForOneYear={props.taxForOneYear}
+			tax={props.tax}
+			taxForTwoYears={props.taxForTwoYears}
+			taxForThreeYears={props.taxForThreeYears}
+			taxForFourYears={props.taxForFourYears}/>}
 		</main>
 	);
 }

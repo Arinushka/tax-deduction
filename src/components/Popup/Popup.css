@@ -17,7 +17,7 @@
 
 .popup__form {
 	width: 520px;
-	height: 740px;
+	max-height: 740px;
 	display: flex;
 	flex-direction: column;
 	background-color: #fff;
@@ -77,8 +77,8 @@
 }
 
 .popup__button-add:hover {
-	opacity: 0.8;
 	cursor: url(../../images/Pointer.png), auto;
+	color:  #F53A31;
 }
 
 .popup__wrapper {
